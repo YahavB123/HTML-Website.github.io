@@ -1,0 +1,11 @@
+#logo {
+  width: 50%;
+  display: block;
+  margin: 20px auto 30px auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#title {
+  font-size: 60px;
+}

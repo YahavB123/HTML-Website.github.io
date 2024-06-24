@@ -1,0 +1,29 @@
+main p, main ul {
+  margin-left: 20px;
+}
+
+main p {
+  line-height: 1.2em;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main ul li {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.2em;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main ul li::before {
+  content: "\2022";
+  color: lemonchiffon;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

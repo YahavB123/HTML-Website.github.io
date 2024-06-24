@@ -1,0 +1,85 @@
+main p {
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+
+img
+{
+  display: block;
+  transition: .5s ease, width .5s, height .5s;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.galleryimg:hover 
+{
+  filter: grayscale(60%);
+  width: 40vw;
+  height: 40vh;
+  cursor: pointer;
+}
+
+#slider
+{
+    position: absolute;
+    bottom: 12vh;
+    left: 32.5vw;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 35vw;
+    border-radius: 10px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+#slider button
+{
+    background-color: rgba(237, 237, 237, 0.2);
+    border: none;
+    padding: 1vh;
+    font-size: 2em;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 1.5em;
+    
+}
+
+#slider button:hover
+{
+    background-color: rgb(237, 237, 237);
+}
+
+.prevornext
+{
+    margin: 1vh 0.3vw;
+    
+}
+
+.jumpto
+{
+    margin: 0 0.3vw;
+    width: 4vw;
+}
+
+#x
+{
+    opacity: 0;
+    transition: opacity .5s ease-out;
+    position: absolute;
+    right: 15.5vw;
+    top: 4.7vh;
+    color: black;
+}
+
+#x button
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+﻿table
+{
+    margin: auto;
+    width: 70%;
+    margin: 20px auto;
+}
+
+table, th, td{
+    border: 2px solid black;
+    color: #141414;
+}
+
+
+th {
+    padding: 12px 0px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: hsl(47, 80%, 80%);
+    text-align: center;
+}
+
+.smallerHeads th
+{
+    font-size: 1em;
+}
+.smallerHeads
+{
+    margin: auto;
+    width: 90vw;
+}
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) 
+{
+    background-color: palegoldenrod;
+}
+
+tr:nth-child(odd)
+{
+    background-color: lemonchiffon;
+}
+
+input 
+{
+    text-align: center;
+}
+
+h1 
+{
+    font-size: 50px;
+}
+
+code {
+  background-color: khaki;
+  border-radius: 5px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: smaller;
+  padding: 0px 5px;
+}
+    

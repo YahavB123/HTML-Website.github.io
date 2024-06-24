@@ -1,0 +1,17 @@
+#tag_img {
+  width: 50%;
+  display: block;
+  margin: 20px auto 30px auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+h1
+{
+    margin-bottom: 7%;
+}
+
+h2
+{
+    line-height: 1.5em;
+}

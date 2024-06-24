@@ -1,0 +1,55 @@
+﻿#q1-answer input, #q3-answer input
+{
+    display: block;
+    line-height: 2em;
+    margin: 5% 0;
+}
+
+#q1-answer, #q3-answer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    line-height: 2em;
+    border: none;
+}
+
+#q5-answer div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+    border: none;
+}
+
+#q3_1, #q3_2 
+{
+    font-size: 0.8em;
+}
+
+#q2-answer input
+{
+    font-size: 0.9em;
+}
+
+#q4 img
+{
+    margin-top: 3vh;
+    width: 15vw;
+    height: 25vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 6vw;
+}
+
+#q1 table
+{
+    margin: none;
+    width: 70%; 
+}
+
+#q1-answer
+{
+    width: 34vw;
+}   

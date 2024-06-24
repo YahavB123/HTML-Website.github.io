@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML About HTML</title>
+    <link rel="icon" type="image/x-icon" href="./resources/images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="./resources/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/styles/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/styles/navbar.css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+                <li><a href="./Default.aspx">Home</a></li>
+                <%=ProtectedLink%>
+            </ul>
+        </nav>
+    </header>
+    
+    <%=userMsg%>
+    <main>
+        <asp:ContentPlaceHolder id="main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </main>
+    <footer>
+        <p>Made By Yahav Bragin 2023 | Email: <a href="mailto:yahav.bragin@gmail.com">yahav.bragin@gmail.com</a> | Phone: <a
+        href="tel:+972 507487123">+972 507487123</a></p>
+    </footer>
+</body>
+</html>
