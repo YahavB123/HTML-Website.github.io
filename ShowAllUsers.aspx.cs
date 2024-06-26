@@ -20,7 +20,7 @@ public partial class ShowAllUsers : System.Web.UI.Page
         }
 
         String path = Server.MapPath(@"App_Data\db.mdb"); //שם הקובץ
-        string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path;
+        string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + path;
 
         // יצירת קשר לבסיס הנתונים
         OleDbConnection conn = new OleDbConnection(connectionString);
