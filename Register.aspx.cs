@@ -41,7 +41,7 @@ public partial class Register : System.Web.UI.Page
             //מאתר את מיקום מסד הנתונים מהשורש ועד התיקייה בה ממוקם המסד
             String path = Server.MapPath(@"App_Data\db.mdb"); //שם הקובץ
             //נתוני ההתחברות הכוללים מיקום וסוג המסד
-            string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path;
+            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + path;
 
             // המאפשר קשר לבסיס הנתונים OleDbConnection יצירת אוביקט 
             OleDbConnection conn = new OleDbConnection(connectionString);
